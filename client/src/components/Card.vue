@@ -2,6 +2,7 @@
   <div class="card" :style="item.style">
     <h1>{{item.title}}</h1>
     <h3>{{item.description }}</h3>
+    <div v-html="item.html" />
   </div>
 </template>
 
